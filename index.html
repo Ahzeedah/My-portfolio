@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">My Portfolio</h1>
+
+            <button class="menu-toggle" id="menu-toggle">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Hello, I'm AbdulWasiu Ahsiyah</h2>
+
+            <p>
+                A Computer Science student passionate about technology,
+                web development and creating useful digital solutions.
+            </p>
+
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+
+        <p>
+            I am a Computer Science student interested in web development
+            and technology. I enjoy learning new skills and using technology
+            to solve problems and create useful solutions.
+        </p>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    A personal portfolio website created using HTML,
+                    CSS and JavaScript.
+                </p>
+
+                <a href="#portfolio-details" class="project-link">
+                    View Details →
+                </a>
+            </div>
+
+
+            <div class="project-card">
+                <h3>Student Project</h3>
+
+                <p>
+                    A simple web project developed to demonstrate
+                    my programming and web development skills.
+                </p>
+
+                <a href="#student-details" class="project-link">
+                    View Details →
+                </a>
+            </div>
+
+
+            <div class="project-card">
+                <h3>Web Design Project</h3>
+
+                <p>
+                    A responsive website designed using modern
+                    HTML and CSS techniques.
+                </p>
+
+                <a href="#web-details" class="project-link">
+                    View Details →
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Project Details -->
+    <section id="portfolio-details" class="section details">
+        <h2>Portfolio Website</h2>
+
+        <p>
+            This project is a personal portfolio website created with
+            HTML, CSS and JavaScript. It demonstrates my ability to
+            structure a webpage, style it and add interactive features.
+        </p>
+    </section>
+
+
+    <section id="student-details" class="section details">
+        <h2>Student Project</h2>
+
+        <p>
+            This project demonstrates the application of programming
+            and web development skills to create a simple and useful
+            web-based solution.
+        </p>
+    </section>
+
+
+    <section id="web-details" class="section details">
+        <h2>Web Design Project</h2>
+
+        <p>
+            This project focuses on creating a clean and responsive
+            website that works well on different screen sizes.
+        </p>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Web Development</div>
+            <div class="skill">Problem Solving</div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your email address"
+                required
+            >
+
+            <textarea
+                id="message"
+                placeholder="Write your message here"
+                rows="6"
+                required
+            ></textarea>
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+
+        </form>
+
+        <p id="form-message"></p>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
